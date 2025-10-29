@@ -30,4 +30,7 @@ include("FT/FTCoefs.jl")
 include("FT/FT.jl")
 include("FT/FT2.jl")
 
+export getidx
+include("Lattice/util.jl")
+
 end # module FiniteLattices
